@@ -1,0 +1,16 @@
+AllowEncodedSlashes On
+
+Alias /<instancename> "<basedir>/opus4/public"
+<Directory "<basedir>/opus4/public">
+ Options FollowSymLinks
+ AllowOverride All
+ Order deny,allow
+ Deny from all
+ Allow from all
+</Directory>
+
+<IfModule mod_rewrite.c>
+ RewriteEngine on
+ RewriteLog <basedir>/opus4/workspace/log/rewrite.log
+ RewriteLogLevel 1
+</IfModule>

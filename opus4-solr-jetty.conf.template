@@ -1,0 +1,7 @@
+JETTY_HOME=<basedir>/solr/opus4
+JETTY_PORT=
+JETTY_LOGS=<basedir>/var/local/opus4/solr/opus4/logs
+JETTY_RUN=<basedir>/solr/opus4
+JETTY_USER=
+JAVA=/usr/bin/java
+JAVA_OPTIONS="$JAVA_OPTIONS -Dsolr.solr.home=$JETTY_HOME/solr -server -Xmx1024M"

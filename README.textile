@@ -1,0 +1,38 @@
+h1. About
+
+This is a small module providing functionality to facilitate setup of new OPUS4 Instances. 
+
+It mainly consists of a configure.sh skript that reads in the actual path as OPUS4 BASEDIR and template files required to setting up the needed configuration files for Installation. Module replaces the manual setup of an new OPUS4 Instance in front of deployment via install.sh script 
+
+h1. Installation
+
+Checkout all files into your newly created OPUS4 BASEDIR BEFORE installing OPUS via install_ubuntu.sh (e.g. /var/local/opus) 
+
+h1. Usage
+
+# Start OPUS4 Installation as described in the documentation
+## Create BASEDIOR for new OPUS Instance
+## Download and extract OPUS4 tgz into the BASEDIR
+# Add module to the already extracted OPUS4 Instance
+## Copy or checkout all files from this module into the OPUS4 Instance 
+## run via shell
+<code>
+configure.sh
+</code>
+# Continue with standard OPUS-Insrtallation process at:
+bc. cd install
+./install_ubuntu.sh
+
+
+h1. Remarks
+
+Module ist tested for ubuntu only!
+h1. Releases
+
+Current Version is 1.1
+
+
+h1. License
+
+http://www.gnu.org/licenses/gpl.html General Public License
+Copyright 2015 Hochschulbibliotehkszentrum des Landes Nordrhein-Westfalen
