@@ -38,4 +38,4 @@ Current Version is 1.1
 h1. License
 
 http://www.gnu.org/licenses/gpl.html General Public License
-Copyright 2015 Hochschulbibliotehkszentrum des Landes Nordrhein-Westfalen
+Copyright 2015 Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen
